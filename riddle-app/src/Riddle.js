@@ -6,6 +6,7 @@ function Riddle({ question, correctAnswer, audioSrc }) {
     const [userAnswer, setUserAnswer] = useState('');
     const [isValid, setIsValid] = useState(true);
     const [isAnswerCorrect, setIsAnswerCorrect] = useState(false);
+    const [shake, setShake] = useState(false);
   
     const handleInputChange = (e) => {
         setUserAnswer(e.target.value);
@@ -38,6 +39,8 @@ function Riddle({ question, correctAnswer, audioSrc }) {
             setIsAnswerCorrect(true);
         } else {
             setIsValid(false);
+            setShake(true);
+            setTimeout(() => setShake(false), 500); 
         }
     };
 
@@ -54,6 +57,7 @@ function Riddle({ question, correctAnswer, audioSrc }) {
                         onChange={handleInputChange}
                         placeholder="Do you know the answer?"
                         style={isValid ? defaultStyle : invalidStyle}
+                        className={shake ? 'shake' : ''}
                     />
                     <button onClick={checkAnswer}>Prove it</button>
                 </>

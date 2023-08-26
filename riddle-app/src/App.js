@@ -4,9 +4,9 @@ import './App.css';
 
 function App() {
   // Single riddle properties
-  const question = "The More That Is Here, The Less You Will See";
-  const answer = 'darkness';
-  const audioSrc = `${process.env.PUBLIC_URL}/audio/le_festin.mp3`;
+  const question = "On top an oval green with scattered paths, stands a quiet place where stories lay";
+  const answer = 'thompson library';
+  const audioSrc = `${process.env.PUBLIC_URL}/audio/thompson.m4a`;
 
   return (
     <div className="App">
