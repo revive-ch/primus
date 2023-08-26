@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/revive-ch/primus/static/css/main.e45f705d.css",
-    "main.js": "/revive-ch/primus/static/js/main.17ef60e7.js",
-    "static/js/787.8afd0638.chunk.js": "/revive-ch/primus/static/js/787.8afd0638.chunk.js",
-    "index.html": "/revive-ch/primus/index.html",
-    "main.e45f705d.css.map": "/revive-ch/primus/static/css/main.e45f705d.css.map",
-    "main.17ef60e7.js.map": "/revive-ch/primus/static/js/main.17ef60e7.js.map",
-    "787.8afd0638.chunk.js.map": "/revive-ch/primus/static/js/787.8afd0638.chunk.js.map"
+    "main.css": "/primus/static/css/main.e45f705d.css",
+    "main.js": "/primus/static/js/main.7f525c3a.js",
+    "static/js/787.8afd0638.chunk.js": "/primus/static/js/787.8afd0638.chunk.js",
+    "index.html": "/primus/index.html",
+    "main.e45f705d.css.map": "/primus/static/css/main.e45f705d.css.map",
+    "main.7f525c3a.js.map": "/primus/static/js/main.7f525c3a.js.map",
+    "787.8afd0638.chunk.js.map": "/primus/static/js/787.8afd0638.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e45f705d.css",
-    "static/js/main.17ef60e7.js"
+    "static/js/main.7f525c3a.js"
   ]
 }
