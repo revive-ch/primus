@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   // Single riddle properties
-  const question = "On top an oval green with scattered paths, stands a quiet place where stories lay";
+  const question = "Why isn't this working????";
   const answer = 'thompson library';
   const audioSrc = `${process.env.PUBLIC_URL}/audio/Thompson.m4a`;
 
